@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+   background-image: url(https://wallpaperaccess.com/full/2465434.jpg);
+   background-color: black;
+   background-size: 100% 740px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contain{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(40, 36, 36);
+    margin-left: 38%;
+    margin-top: 7%;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+}
+.contain h1{
+    font-size: 36px;
+    color: #0077b6;
+}
+.contain .text{
+    position:relative;
+    top: 7%;
+}
+.inp1{
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+.inp2{
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+.text button{
+    width: 250px;
+    height: 44px;
+    background-color: #0077b6;
+    color: black;
+    border: none;
+    font-size: 24px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover{
+    border:3px solid #0077b6;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+p span{
+    color: #0077b6;
+    cursor: pointer;
+}
